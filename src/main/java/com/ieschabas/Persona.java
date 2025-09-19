@@ -143,7 +143,7 @@ public class Persona {
     //Metodo toString
 
     public String toString(){
-        return "Nombre:" + this.nombre + "\n apellidos " + this.apellidos + "\n edad: " + this.edad + "\n dni: " + this.dni + "\n telefono: " + this.telefono;
+        return "Nombre:" + this.nombre + "\napellidos " + this.apellidos + "\nedad: " + this.edad + "\ndni: " + this.dni + "\ntelefono: " + this.telefono;
 
 
 

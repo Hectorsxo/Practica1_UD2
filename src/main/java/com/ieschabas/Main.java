@@ -1,17 +1,53 @@
 package com.ieschabas;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        //objeto Persona
+        Persona persona1 = new Persona();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        /**
+         * Asignacion de atributos al objeto persona1
+         */
+        persona1.setNombre(" Héctor");
+        persona1.setApellidos("Crespo Buigues");
+        persona1.setEdad(18);
+        persona1.setDni("1020393989B");
+        persona1.setTelefono("+34695683459");
+
+        /**
+         * Imprimir persona1
+         */
+
+
+        System.out.println(persona1.toString());
+
+        /**
+         * Creacion de persona2 con sus parametros
+         */
+
+        Persona persona2 = new Persona(18,"1020393989B","Héctor","Crespo Buigues","+34695683459");
+
+        /**
+         * Cambiar edad de persona1
+         */
+
+        persona1.setEdad(50);
+
+        /**
+         *  Cambiamos nombre de persona 1
+         */
+
+
+        persona1.setNombre("Jesus");
+
+        /**
+         * Imprimir persona1 modificado y persona2
+         */
+
+        System.out.println(persona1.toString());
+
+        System.out.println(persona2.toString());
+
+
     }
 }
