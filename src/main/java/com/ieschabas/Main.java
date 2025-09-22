@@ -34,7 +34,7 @@ public class Main {
         persona1.setEdad(50);
 
         /**
-         *  Cambiamos nombre de persona 1
+         *Cambiamos nombre de persona 1
          */
 
 
@@ -48,6 +48,16 @@ public class Main {
 
         System.out.println(persona2.toString());
 
+        //Uso de la clase Rectangulo
+        Rectangulo rectangulo1 = new Rectangulo();
+        Rectangulo rectangulo2 = new Rectangulo(2.4, 2.7);
+
+        //Settear la base y altura del rectangulo1
+        rectangulo1.setBase(5.2);
+        rectangulo1.setAltura(6.2);
+
+        System.out.println("Área del rectángulo 1: " + rectangulo1.calcularArea());
+        System.out.println("Área del rectángulo 2: " + rectangulo2.calcularArea());
 
     }
 }

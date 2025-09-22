@@ -9,11 +9,11 @@ public class Persona {
 
     //Constructor por defecto
    /* public Persona () {
-        this.edad = 15;
-        this.dni = "Y84290426";
-        this.nombre = "Alex";
-        this.apellidos = "Parry";
-        this.telefono = "+34623578043";
+        this.edad = 18;
+        this.dni = "1020393989B";
+        this.nombre = "Héctor";
+        this.apellidos = "Crespo Buigues";
+        this.telefono = "+34695683459";
 
     }
     */
