@@ -67,5 +67,27 @@ public class Main {
         System.out.println("Saldo actual: " + cuenta.getSaldo());
 
 
+        //Uso de la clase coche
+
+        // Crear un coche con velocidad inicial de 50Coche
+        Coche coche = new Coche(50);
+
+        // Mostrar la velocidad inicial
+        System.out.println("Velocidad inicial: " + coche.getVelocidad() + " km/h");
+
+        // Acelerar el coche en 20 km/h
+        coche.acelerar(20);
+        System.out.println("Velocidad después de acelerar: " + coche.getVelocidad() + " km/h");
+
+        // Frenar el coche en 30 km/h
+        coche.frenar(30);
+        System.out.println("Velocidad después de frenar: " + coche.getVelocidad() + " km/h");
+
+        // Frenar más de la velocidad actual para comprobar que no queda negativa
+        coche.frenar(50);
+        System.out.println("Velocidad después de frenar demasiado: " + coche.getVelocidad() + " km/h");
+
+
+
     }
 }

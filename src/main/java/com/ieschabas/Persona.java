@@ -20,7 +20,7 @@ public class Persona {
 
 
     /**
-     * Constructor por defecto crrea una instancia de persona sin datos
+     * Constructor por defecto que crea una instancia de persona sin datos
      */
     public Persona ()  {
 
