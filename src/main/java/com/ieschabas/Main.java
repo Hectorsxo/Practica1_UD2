@@ -59,5 +59,13 @@ public class Main {
         System.out.println("Área del rectángulo 1: " + rectangulo1.calcularArea());
         System.out.println("Área del rectángulo 2: " + rectangulo2.calcularArea());
 
+
+        //Uso de la clase cuentaBancaria
+        cuentaBancaria cuenta = new cuentaBancaria(1000, "Carlos");
+        cuenta.ingresar(500);
+        cuenta.retirar(300);
+        System.out.println("Saldo actual: " + cuenta.getSaldo());
+
+
     }
 }
