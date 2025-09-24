@@ -90,5 +90,24 @@ public class Main {
         // Se crea otro objeto de la clase PotenciaYRaiz para calcular la potencia
         PotenciaYRaiz potencia1 = new PotenciaYRaiz();
         potencia1.potencia();// Se llama al método que calcula y muestra la potencia.
+
+        /**
+         * Uso de la clase Libro
+         */
+
+        // Creamos un objeto de tipo Libro usando el constructor por defecto
+        Libro libro1 = new Libro();
+        libro1.setTitulo("La metamorfosis");
+        libro1.setAutor("Franz Kafka");
+        libro1.setPaginas(112);
+
+        // Creamos un segundo objeto de tipo Libro usando el constructor sobrecargado
+        Libro libro2 = new Libro("El extranjero", "Albert Camus", 128);
+
+        // Mostramos la información del primer libro
+        libro1.mostrarInformacion();
+        // Mostramos la información del segundo libro
+        libro2.mostrarInformacion();
+
     }
 }
