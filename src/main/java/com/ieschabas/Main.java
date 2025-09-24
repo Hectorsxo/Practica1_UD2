@@ -142,6 +142,27 @@ public class Main {
         System.out.println("Área: " + c1.calcularArea() + " m²");
 
 
+        /**
+         * Uso de la clase Calculadora
+         */
+
+        // Crear un objeto Calculadora usando el constructor sobrecargado con a=10 y b=5.
+        Calculadora calc = new Calculadora(10, 5);
+
+        // Llamar a los métodos y mostrar el resultados.
+        System.out.println("Suma: " + calc.suma());
+        System.out.println("Resta: " + calc.resta());
+        System.out.println("Multiplicación: " + calc.multiplicacion());
+        System.out.println("División: " + calc.division());
+
+        // Cambiando los valores usando setters.
+        calc.setA(20);
+        calc.setB(4);
+        // Llamar nuevamente al método suma con los nuevos valores y mostrar el resultado.
+        System.out.println("Nueva suma: " + calc.suma());
+        System.out.println("Nueva resta: " + calc.resta());
+        System.out.println("Nueva multiplicación: " + calc.multiplicacion());
+        System.out.println("Nueva división: " + calc.division());
 
     }
 
