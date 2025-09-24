@@ -1,5 +1,10 @@
 package com.ieschabas;
 
+/**
+ *Clase que define los atributos de una persona, tales como el dni, el nombre, etc.
+ * @author Héctor Crespo
+ * @version 1.0
+ */
 public class Persona {
     private int edad;
     private String dni;
@@ -17,7 +22,6 @@ public class Persona {
 
     }
     */
-
 
     /**
      * Constructor por defecto que crea una instancia de persona sin datos
