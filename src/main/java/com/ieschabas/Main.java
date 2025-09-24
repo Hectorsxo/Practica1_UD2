@@ -109,5 +109,28 @@ public class Main {
         // Mostramos la información del segundo libro
         libro2.mostrarInformacion();
 
+
+        /**
+         * Uso de la clase Alumno
+         */
+
+        // Creamos un primer alumno usando el constructor sobrecargado
+        Alumno alumno1 = new Alumno("Héctor", 7.5);
+
+        // Creamos un segundo alumno con el constructor sobrecargado
+        Alumno alumno2 = new Alumno("Alex", 3.8);
+
+
+        // Mostramos la información de cada alumno
+        System.out.println("Información del primer alumno:");
+        alumno1.mostrarInformacion();
+
+
+        System.out.println("Información del segundo alumno:");
+        alumno2.mostrarInformacion();
+
+
+
     }
+
 }
