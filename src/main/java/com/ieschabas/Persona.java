@@ -1,5 +1,10 @@
 package com.ieschabas;
 
+/**
+ *Clase que define los atributos de una persona, tales como el dni, el nombre, etc.
+ * @author Héctor Crespo
+ * @version 1.0
+ */
 public class Persona {
     private int edad;
     private String dni;
@@ -18,7 +23,6 @@ public class Persona {
     }
     */
 
-
     /**
      * Constructor por defecto que crea una instancia de persona sin datos
      */
@@ -29,11 +33,11 @@ public class Persona {
 
     /**
      * Constructor sobre cargado de la clase persona, crea una instancia con los datos pasados como parametros
-     * @param edad
-     * @param dni
-     * @param nombre
-     * @param apellidos
-     * @param telefono
+     * @param edad atributo de un int
+     * @param dni atributo de un String
+     * @param nombre atributo de un String
+     * @param apellidos atributo de un String
+     * @param telefono atributo de un String
      */
 
     public Persona(int edad, String dni, String nombre, String apellidos, String telefono) {
@@ -46,7 +50,7 @@ public class Persona {
 
     /**
      * Inserta la edad en el objeto personas
-     * @param edad
+     * @param edad int
      */
 
 
@@ -56,7 +60,7 @@ public class Persona {
 
     /**
      * Inserta el Dni en el objeto persona
-     * @param dni
+     * @param dni String
      */
 
     public void setDni(String dni) {
@@ -65,7 +69,7 @@ public class Persona {
 
     /**
      * Inserta el nombre en el objeto persona
-     * @param nombre
+     * @param nombre String
      */
 
     public void setNombre(String nombre) {
@@ -74,7 +78,7 @@ public class Persona {
 
     /**
      * Inserta el apellido en el objeto persona
-     * @param apellidos
+     * @param apellidos String
      */
 
     public void setApellidos(String apellidos) {
@@ -83,7 +87,7 @@ public class Persona {
 
     /**
      *Inserta el telefono en el objeto persona
-     * @param telefono
+     * @param telefono String
      */
 
     public void setTelefono(String telefono) {
@@ -92,7 +96,7 @@ public class Persona {
 
     /**
      * Devuelve la edad del objeto persona
-     * @return
+     * @return edad
      */
 
     public int getEdad() {
@@ -101,7 +105,7 @@ public class Persona {
 
     /**
      * Devuelve el dni del objeto persona
-     * @return
+     * @return dni
      */
 
     public String getDni() {
@@ -110,7 +114,7 @@ public class Persona {
 
     /**
      * Devuelve el nombre del objeto persona
-     * @return
+     * @return nombre
      */
 
     public String getNombre() {
@@ -119,7 +123,7 @@ public class Persona {
 
     /**
      * Devuelve el apellidos del objeto persona
-     * @return
+     * @return apellidos
      */
 
     public String getApellidos() {
@@ -128,7 +132,7 @@ public class Persona {
 
     /**
      * Devuelve el telefono del objeto persona
-     * @return
+     * @return telefono
      */
 
     public String getTelefono() {
